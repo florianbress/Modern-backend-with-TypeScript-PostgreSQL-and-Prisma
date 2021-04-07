@@ -1,0 +1,28 @@
+{
+	"name": "mbtpp",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:jlorezz/Modern-backend-with-TypeScript-PostgreSQL-and-Prisma.git",
+	"author": "jlorezz",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.13.14",
+		"@babel/preset-env": "^7.13.12",
+		"babel-jest": "^26.6.3",
+		"date-fns": "^2.19.0",
+		"eslint": "^7.23.0",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-prettier": "^3.3.1",
+		"jest": "^26.6.3",
+		"prisma": "2.20.1",
+		"ts-node-dev": "^1.1.6"
+	},
+	"scripts": {
+		"test": "jest",
+		"seed": "ts-node-dev ./source/seed.ts"
+	},
+	"dependencies": {
+		"@prisma/client": "2.20.1",
+		"typescript": "^4.2.3"
+	}
+}
